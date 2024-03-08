@@ -1,6 +1,5 @@
 # EctoLock
-
-**TODO: Add description**
+When running an application in multiple servers, we can end up have issues such as doubling our requests. That's the moment to recur to find a solution and here we are going to solve using **locking**. 
 
 ## Installation
 
