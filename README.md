@@ -3,7 +3,7 @@ When running an application in multiple servers, we can end up have issues such 
 
 Based on: https://medium.com/flatiron-labs/database-locking-with-ecto-in-elixir-9804cdbd1866
 
-Futher exploring: using Ecto.Multi to create larger transactions and optimizing lock. 
+Futher exploring: using `Ecto.Multi` to create larger transactions and optimizing lock. 
 
 ## Installation
 
@@ -25,7 +25,10 @@ mix ecto.create
 mix ecto.migrate
 
 iex -S mix
+```
 
+On iex you can run:
+```
 EctoLock.Helper.create_invoices
 EctoLock.Helper.bill_from_two_servers # true for loking
 ```
